@@ -1,0 +1,172 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-image: url("../img/bg.png");
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  z-index: 2;
+}
+
+.ptext {
+  font-size: 16px;
+  font-size: 2vw;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  width: 400px;
+  padding-top: 15px;
+  padding-left: 100px;
+}
+
+.positionmanager {
+  float: right;
+  margin-top: -50px;
+}
+
+.body-content {
+  padding-top: 36px;
+}
+
+.image2 {
+  position: relative;
+}
+
+embed {
+  padding-top: 65px;
+  width: 99%;
+  height: 405px;
+}
+
+.cvarticle {
+  margin: 0px 125px 0px 125px;
+}
+
+.pic {
+  margin: 0px 38vmin;
+  width: 25%;
+  height: auto;
+  max-height: : 75%;
+  padding-top: 25px;
+}
+
+.btnManager {
+  width: 60px;
+  height: 34px;
+  font-size: 2vw;
+}
+
+.containerColor {
+  background-color: #3f3f3f;
+}
+
+.btnHandler {
+  margin-left: 175px;
+}
+
+.textHandler h3 {
+  color: white;
+  margin-left: 135px;
+}
+
+.toastPos {
+  margin-left: 150px;
+  margin-left: auto;
+  margin-top: 2vmax;
+  position: relative;
+}
+
+@media screen and (min-width: 1025px) {
+  body {
+    width: 100%;
+  }
+
+  .toastPos {
+    margin-left: 1175px;
+    margin-left: auto;
+    margin-top: 5vmax;
+    position: relative;
+  }
+
+  .ptext {
+    font-size: 24px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 784px;
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  .textHandler h3 {
+    color: white;
+    margin-left: 90px;
+  }
+
+  .pic {
+    margin: 0px 22vmin;
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    max-height: 240px;
+    padding-top: 25px;
+  }
+
+  .btnManager {
+    width: 105px;
+    height: 58px;
+    font-size: 1vw;
+  }
+
+  .btnHandler {
+    margin-left: 100px;
+  }
+
+  embed {
+    padding-top: 65px;
+    width: 99%;
+    height: 605px;
+  }
+
+  .cvarticle {
+    margin: 0px 350px 0px 350px;
+  }
+}
+
+/*NAV BAR BEGYNDER HER*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  /* Safari */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  color: white;
+}
+
+.active {
+  background-color: #b0180b;
+}
+
+/* Kontakt css er i cstyles.css */
